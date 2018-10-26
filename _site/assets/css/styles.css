@@ -35,11 +35,18 @@ nav a {
   transition-duration: 0.4s; }
 
 nav a:hover {
-  background-color: maroon;
-  color: #333333; }
+  background-color: maroon; }
 
 .titleLink {
-  grid-column: 1 / span 2; }
+  grid-column: 1 / span 2;
+  display: table; }
+
+.titleLink img {
+  width: 7em;
+  height: 7em; }
+
+.titleLink h1 {
+  margin-bottom: -1em; }
 
 article img {
   width: 100%;
@@ -67,4 +74,8 @@ article img {
     width: 100%;
     position: initial;
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+
+  .titleLink img {
+    width: 5em;
+    height: 5em; } }

@@ -36,11 +36,18 @@ nav a {
 }
 nav a:hover {
 	background-color: maroon;
-	color: #333333;
 }
 .titleLink {
 	grid-column: 1 / span 2;
+	display: table;
 }
+.titleLink img {
+	width: 7em;
+	height: 7em;
+}
+.titleLink h1 {
+		margin-bottom: -1em;
+	}
 article img {
 	width: 100%;
 	height: auto;
@@ -70,5 +77,9 @@ article img {
 		position: initial;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+	}
+	.titleLink img {
+		width: 5em;
+		height: 5em;
 	}
 }
