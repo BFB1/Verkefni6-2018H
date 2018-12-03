@@ -40,6 +40,7 @@ nav a:hover {
 .titleLink {
 	grid-column: 1 / span 2;
 	display: table;
+	padding-bottom: 3em;
 }
 .titleLink img {
 	width: 7em;
@@ -68,6 +69,14 @@ article img {
 	grid-template-columns: 1fr 3fr;
 }
 
+table {
+	border: .2em solid white;
+	margin: auto;
+}
+tr:nth-child(even) {
+	background-color: #333333;
+}
+
 @media only screen and (max-width: 800px) {
 	.wrapper {
 		display: initial;
@@ -81,5 +90,11 @@ article img {
 	.titleLink img {
 		width: 5em;
 		height: 5em;
+	}
+	td {
+		display: block;
+	}
+	tr {
+		display: block;
 	}
 }

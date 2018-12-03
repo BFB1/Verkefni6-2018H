@@ -11,3 +11,5 @@ Extroversion software is a real company that makes real products in the real wor
 Extroversions goal is to explore the line between fact and fiction. The consensus so far has been fake.
 
 This website is maintained by Chris Morris and Mark Delay.
+
+{% include table.html name="projects" caption="Tenglar á verkefni áfangans" %}
