@@ -77,6 +77,34 @@ tr:nth-child(even) {
 	background-color: #333333;
 }
 
+.register label {
+	display: block;
+	margin: 1em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.register input, .register select, .register textarea {
+	margin: 1em;
+	display: block;
+}
+.register input[type=text], .register input[type=email], .register textarea {
+	padding: .5em;
+	border-radius: 4px;
+	width: 50%;
+}
+
+.register input[type=radio], .register input[type=checkbox] {
+	display: inline-block;
+}
+
+.register input[type=submit], .register input[type=reset] {
+	display: inline-block;
+}
+.register textarea {
+	width: 100%;
+	margin: 0;
+}
+
 @media only screen and (max-width: 800px) {
 	.wrapper {
 		display: initial;
@@ -96,5 +124,11 @@ tr:nth-child(even) {
 	}
 	tr {
 		display: block;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.register textarea {
+
 	}
 }
